@@ -1,0 +1,36 @@
+artifact_path: file:D:/Annisa's/Dicoding/Membangun Sistem ML/SMSML_Annisa DY/Modelling/mlruns/1/models/m-27da3032c2534d279578b91f3b9e6c29/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-27da3032c2534d279578b91f3b9e6c29
+model_size_bytes: 1367331
+model_uuid: m-27da3032c2534d279578b91f3b9e6c29
+prompts: null
+run_id: 7a057f2679e54ac9ab64fb06e188360e
+signature:
+  inputs: '[{"type": "double", "name": "Gender", "required": true}, {"type": "double",
+    "name": "Married", "required": true}, {"type": "double", "name": "Dependents",
+    "required": true}, {"type": "double", "name": "Education", "required": true},
+    {"type": "double", "name": "Self_Employed", "required": true}, {"type": "double",
+    "name": "ApplicantIncome", "required": true}, {"type": "double", "name": "CoapplicantIncome",
+    "required": true}, {"type": "double", "name": "LoanAmount", "required": true},
+    {"type": "double", "name": "Loan_Amount_Term", "required": true}, {"type": "double",
+    "name": "Credit_History", "required": true}, {"type": "double", "name": "Property_Area",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-15 12:01:16.914580'
