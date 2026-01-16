@@ -34,4 +34,4 @@ jobs:
         with:
           context: ./MLProject
           push: true
-          tags: adolesans/Membangun Sistem Machine Learning_Annisa Dy:latest
+          tags: adolesans/submission-ml-annisa:latest
